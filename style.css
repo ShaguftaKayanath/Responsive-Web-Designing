@@ -1,0 +1,75 @@
+img{
+  width: 100px;
+}
+
+  body
+{
+ background-color: Skyblue;
+}
+
+.mainDiv{
+  border: 4px solid  ;
+  margin: 2%;
+  padding: 1%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+
+}
+.sub{
+  border: 2px solid Green;
+  border-radius: 15px 50px;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: cursive;
+  font-style: italic;
+  color:Purple;
+
+
+
+}
+#f{
+   font-family: cursive;
+   font-style: italic;
+   color: Green;
+}
+
+
+@media only screen and (max-width:425px){
+  .mainDiv{
+    border: 4px solid  ;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+      border-radius: 15px;
+
+}
+
+@media only screen and(min-width:426px) and (max-width:768px){
+  .mainDiv{
+    border: 4px solid  ;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 15px;
+}
+@media only screen and(min-width:769px) and (max-width:1024px) {
+  .mainDiv{
+    border: 4px solid  ;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-wrap: : wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+      border-radius: 15px;
+}
